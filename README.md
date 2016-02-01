@@ -12,11 +12,11 @@ Initializing Repository
 
 Init core trees without any device/kernel/vendor :
 
-    $ repo init -u https://github.com/AOKP/platform_manifest.git -b mm
+    $ repo init -u https://github.com/Emotroid-Rom/platform_manifest.git -b mm
 
 sync repo :
 
-    $ repo sync
+    $ repo sync -c -f -j4 --force-sync --no-clone-bundle
 
 ***
 
@@ -26,12 +26,12 @@ Building
 After the sync is finished, please read the [instructions from the Android site](http://s.android.com/source/building.html) on how to build.
 
     . build/envsetup.sh
-    lunch
+    lunch trltexx
 
 
-You can also build (and see how long it took) for specific devices (eg. hammerhead) like this:
+You can also build (and see how long it took) for specific devices (eg. trltexx) like this:
 
     . build/envsetup.sh
-    lunch aokp_hammerhead-userdebug && time make aokp
+    lunch trltexx-userdebug && time make aokp
 
 Remember to `make clobber && make clean` every now and then!
