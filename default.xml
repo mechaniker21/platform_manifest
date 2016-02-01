@@ -22,29 +22,46 @@
   <remote  name="private"
            fetch="ssh://git@github.com" />
 
+  <remote  name="emotroid"
+           fetch="https://github.com/"
+           revision="mm" />
+
   <default revision="refs/heads/mm"
            remote="aokp"
            sync-c="true"
            sync-j="4" />
 
-  <!-- Begin AOKP -->
-  <project path="platform_manifest" name="AOKP/platform_manifest" remote="aokp" />
+<!-- BEGIN EMOTROID -->
+  <project path="platform_manifest" name="Emotroid-Rom/platform_manifest" remote="emotroid" />
 
-  <project path="build" name="AOKP/build" groups="pdk" remote="aokp" >
+  <project path="build" name="Emotroid-Rom/build" remote="emotroid" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+  <project path="frameworks/base" name="Emotroid-Rom/frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="emotroid" />
+  <project path="packages/apps/Settings" name="Emotroid-Rom/packages_apps_Settings" groups="pdk-fs" remote="emotroid" />
+  <project path="packages/apps/ROMControl" name="AOKP/packages_apps_ROMControl" remote="aokp" />
+  <project path="packages/services/Telephony" name="Emotroid-Rom/packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="emotroid" />
+
+<!-- END EMOTROID -->
+
+  <!-- Begin AOKP -->
+  <!--project path="platform_manifest" name="AOKP/platform_manifest" remote="aokp" /-->
+
+  <!--project path="build" name="AOKP/build" groups="pdk" remote="aokp" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project-->
 
   <project path="device/qcom/sepolicy" remote="aokp" name="AOKP/device_qcom_sepolicy" />
   <project path="external/mksh" remote="aokp" name="AOKP/external_mksh" groups="pdk" />
   <project path="external/sepolicy" remote="aokp" name="AOKP/external_sepolicy" groups="pdk" />
   <project path="frameworks/av" name="AOKP/frameworks_av" groups="pdk" remote="aokp" />
-  <project path="frameworks/base" name="AOKP/frameworks_base" remote="aokp" groups="pdk-cw-fs,pdk-fs" />
+  <!--project path="frameworks/base" name="AOKP/frameworks_base" remote="aokp" groups="pdk-cw-fs,pdk-fs" /-->
   <project path="frameworks/opt/cards" remote="aokp" name="AOKP/frameworks_opt_cards" groups="pdk" />
   <project path="frameworks/opt/telephony" remote="aokp" name="AOKP/frameworks_opt_telephony" groups="pdk" />
   <project path="packages/apps/InCallUI" remote="aokp" name="AOKP/packages_apps_InCallUI" groups="pdk-fs" />
-  <project path="packages/apps/ROMControl" name="AOKP/packages_apps_ROMControl" remote="aokp" />
-  <project path="packages/apps/Settings" name="AOKP/packages_apps_Settings" remote="aokp" groups="pdk-fs" />
-  <project path="packages/services/Telephony" remote="aokp" name="AOKP/packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" />
+  <!--project path="packages/apps/ROMControl" name="AOKP/packages_apps_ROMControl" remote="aokp" /-->
+  <!--project path="packages/apps/Settings" name="AOKP/packages_apps_Settings" remote="aokp" groups="pdk-fs" /-->
+  <!--project path="packages/services/Telephony" remote="aokp" name="AOKP/packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" /-->
   <project path="packages/wallpapers/SwagPapers" remote="aokp" name="AOKP/packages_wallpapers_SwagPapers" />
   <project path="system/core" remote="aokp" name="AOKP/system_core" groups="pdk" />
   <project path="vendor/aokp" name="AOKP/vendor_aokp" remote="aokp" />
