@@ -39,7 +39,7 @@
   </project>
   <project path="frameworks/base" name="Emotroid-Rom/frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="emotroid" />
   <project path="packages/apps/Settings" name="Emotroid-Rom/packages_apps_Settings" groups="pdk-fs" remote="emotroid" />
-  <project path="packages/apps/ROMControl" name="AOKP/packages_apps_ROMControl" remote="aokp" />
+  <project path="packages/apps/ROMControl" name="Emotroid-Rom/packages_apps_ROMControl" remote="emotroid" />
   <project path="packages/services/Telephony" name="Emotroid-Rom/packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="emotroid" />
   <project path="vendor/aokp" name="Emotroid-Rom/vendor_aokp" remote="emotroid" />
 <!-- END EMOTROID -->
