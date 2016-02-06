@@ -26,6 +26,10 @@
            fetch="https://github.com/"
            revision="mm" />
 
+  <remote  name="emotroid_rom"
+           fetch="https://github.com/"
+           revision="cm-13.0" />
+
   <default revision="refs/heads/mm"
            remote="aokp"
            sync-c="true"
