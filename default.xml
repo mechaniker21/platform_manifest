@@ -47,6 +47,7 @@
   <project path="packages/services/Telephony" name="Emotroid-Rom/packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="emotroid" />
   <project path="system/core" remote="emotroid" name="Emotroid-Rom/system_core" groups="pdk" />
   <project path="vendor/aokp" name="Emotroid-Rom/vendor_aokp" remote="emotroid" />
+  <project path="external/sepolicy" remote="emotroid" name="Emotroid-Rom/external_sepolicy" groups="pdk" />
 <!-- END EMOTROID -->
 
   <!-- Begin AOKP -->
@@ -58,7 +59,7 @@
   <project path="bootable/recovery" remote="aokp" name="AOKP/bootable_recovery" groups="pdk,pdk-cw-fs" />
   <project path="device/qcom/sepolicy" remote="aokp" name="AOKP/device_qcom_sepolicy" />
   <project path="external/mksh" remote="aokp" name="AOKP/external_mksh" groups="pdk" />
-  <project path="external/sepolicy" remote="aokp" name="AOKP/external_sepolicy" groups="pdk" />
+  <!--project path="external/sepolicy" remote="aokp" name="AOKP/external_sepolicy" groups="pdk" /-->
   <project path="frameworks/av" name="AOKP/frameworks_av" groups="pdk" remote="aokp" />
   <!--project path="frameworks/base" name="AOKP/frameworks_base" remote="aokp" groups="pdk-cw-fs,pdk-fs" /-->
   <project path="frameworks/opt/cards" remote="aokp" name="AOKP/frameworks_opt_cards" groups="pdk" />
