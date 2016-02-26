@@ -49,6 +49,7 @@
   <project path="vendor/aokp" name="Emotroid-Rom/vendor_aokp" remote="emotroid" />
   <project path="external/sepolicy" remote="emotroid" name="Emotroid-Rom/external_sepolicy" groups="pdk" />
   <project path="device/qcom/sepolicy" remote="emotroid" name="Emotroid-Rom/device_qcom_sepolicy" />
+  <project path="external/sqlite" remote="emotroid_rom" name="Emotroid-Rom/android_external_sqlite" groups="pdk" />
 <!-- END EMOTROID -->
 
   <!-- Begin AOKP -->
@@ -166,7 +167,7 @@
   <project path="external/sonivox" remote="cm" name="CyanogenMod/android_external_sonivox" groups="pdk" />
   <project path="external/speex" remote="cm" name="CyanogenMod/android_external_speex" groups="pdk" />
   <project path="external/spongycastle" remote="cm" name="CyanogenMod/android_external_spongycastle" groups="pdk" />
-  <project path="external/sqlite" remote="cm" name="CyanogenMod/android_external_sqlite" groups="pdk" />
+  <!--project path="external/sqlite" remote="cm" name="CyanogenMod/android_external_sqlite" groups="pdk" /-->
   <project path="external/stagefright-plugins" remote="cm" name="CyanogenMod/android_external_stagefright-plugins" />
   <project path="external/strace" remote="cm" name="CyanogenMod/android_external_strace" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/tcpdump" remote="cm" name="CyanogenMod/android_external_tcpdump" groups="pdk,pdk-cw-fs,pdk-fs" />
