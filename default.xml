@@ -50,6 +50,7 @@
   <project path="external/sepolicy" remote="emotroid" name="Emotroid-Rom/external_sepolicy" groups="pdk" />
   <project path="device/qcom/sepolicy" remote="emotroid" name="Emotroid-Rom/device_qcom_sepolicy" />
   <project path="external/sqlite" remote="emotroid_rom" name="Emotroid-Rom/android_external_sqlite" groups="pdk" />
+  <project path="vendor/cmsdk" name="Emotroid-Rom/cm_platform_sdk" remote="emotroid" />
 <!-- END EMOTROID -->
 
   <!-- Begin AOKP -->
@@ -73,7 +74,7 @@
   <!--project path="packages/wallpapers/SwagPapers" remote="aokp" name="AOKP/packages_wallpapers_SwagPapers" /-->
   <!--project path="system/core" remote="aokp" name="AOKP/system_core" groups="pdk" /-->
   <!--project path="vendor/aokp" name="AOKP/vendor_aokp" remote="aokp" /-->
-  <project path="vendor/cmsdk" name="AOKP/cm_platform_sdk" remote="aokp" />
+  <!--project path="vendor/cmsdk" name="AOKP/cm_platform_sdk" remote="aokp" /-->
 
   <!-- Begin CM -->
   <project path="abi/cpp" remote="cm" name="CyanogenMod/android_abi_cpp" groups="pdk" />
