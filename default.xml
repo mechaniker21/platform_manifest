@@ -30,8 +30,8 @@
            fetch="https://github.com/"
            revision="cm-13.0" />
 
-  <default revision="refs/heads/cm-13.0"
-           remote="cm"
+  <default revision="refs/heads/mm"
+           remote="aokp"
            sync-c="true"
            sync-j="4" />
 
