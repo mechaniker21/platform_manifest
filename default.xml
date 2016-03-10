@@ -42,6 +42,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="frameworks/base" name="Emotroid-Rom/frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="emotroid" />
+  <project path="frameworks/av" name="Emotroid-Rom/frameworks_av" groups="pdk" remote="emotroid" />
   <project path="packages/apps/Settings" name="Emotroid-Rom/packages_apps_Settings" groups="pdk-fs" remote="emotroid" />
   <project path="packages/apps/ROMControl" name="Emotroid-Rom/packages_apps_ROMControl" remote="emotroid" />
   <project path="packages/services/Telephony" name="Emotroid-Rom/packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="emotroid" />
@@ -63,7 +64,7 @@
   <!--project path="device/qcom/sepolicy" remote="aokp" name="AOKP/device_qcom_sepolicy" /-->
   <project path="external/mksh" remote="aokp" name="AOKP/external_mksh" groups="pdk" />
   <!--project path="external/sepolicy" remote="aokp" name="AOKP/external_sepolicy" groups="pdk" /-->
-  <project path="frameworks/av" name="AOKP/frameworks_av" groups="pdk" remote="aokp" />
+  <!--project path="frameworks/av" name="AOKP/frameworks_av" groups="pdk" remote="aokp" /-->
   <!--project path="frameworks/base" name="AOKP/frameworks_base" remote="aokp" groups="pdk-cw-fs,pdk-fs" /-->
   <project path="frameworks/opt/cards" remote="aokp" name="AOKP/frameworks_opt_cards" groups="pdk" />
   <project path="frameworks/opt/telephony" remote="aokp" name="AOKP/frameworks_opt_telephony" groups="pdk" />
