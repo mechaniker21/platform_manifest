@@ -43,6 +43,7 @@
   </project>
   <project path="frameworks/base" name="Emotroid-Rom/frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="emotroid" />
   <project path="frameworks/av" name="Emotroid-Rom/frameworks_av" groups="pdk" remote="emotroid" />
+  <project path="frameworks/opt/telephony" remote="emotroid" name="Emotroid-Rom/frameworks_opt_telephony" groups="pdk" />
   <project path="packages/apps/Settings" name="Emotroid-Rom/packages_apps_Settings" groups="pdk-fs" remote="emotroid" />
   <project path="packages/apps/ROMControl" name="Emotroid-Rom/packages_apps_ROMControl" remote="emotroid" />
   <project path="packages/services/Telephony" name="Emotroid-Rom/packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="emotroid" />
@@ -67,7 +68,7 @@
   <!--project path="frameworks/av" name="AOKP/frameworks_av" groups="pdk" remote="aokp" /-->
   <!--project path="frameworks/base" name="AOKP/frameworks_base" remote="aokp" groups="pdk-cw-fs,pdk-fs" /-->
   <project path="frameworks/opt/cards" remote="aokp" name="AOKP/frameworks_opt_cards" groups="pdk" />
-  <project path="frameworks/opt/telephony" remote="aokp" name="AOKP/frameworks_opt_telephony" groups="pdk" />
+  <!--project path="frameworks/opt/telephony" remote="aokp" name="AOKP/frameworks_opt_telephony" groups="pdk" /-->
   <project path="packages/apps/InCallUI" remote="aokp" name="AOKP/packages_apps_InCallUI" groups="pdk-fs" />
   <!--project path="packages/apps/ROMControl" name="AOKP/packages_apps_ROMControl" remote="aokp" /-->
   <!--project path="packages/apps/Settings" name="AOKP/packages_apps_Settings" remote="aokp" groups="pdk-fs" /-->
