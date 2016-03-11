@@ -48,7 +48,9 @@
   <project path="packages/apps/ROMControl" name="Emotroid-Rom/packages_apps_ROMControl" remote="emotroid" />
   <project path="packages/services/Telephony" name="Emotroid-Rom/packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="emotroid" />
   <project path="system/core" remote="emotroid" name="Emotroid-Rom/system_core" groups="pdk" />
-  <project path="vendor/aokp" name="Emotroid-Rom/vendor_aokp" remote="emotroid" />
+  <project path="vendor/aokp" name="Emotroid-Rom/vendor_aokp" remote="emotroid" >
+    <copyfile src="tools/build-emotion.sh" dest="build-emotion.sh"/>
+  </project>
   <project path="external/sepolicy" remote="emotroid" name="Emotroid-Rom/external_sepolicy" groups="pdk" />
   <project path="device/qcom/sepolicy" remote="emotroid" name="Emotroid-Rom/device_qcom_sepolicy" />
   <project path="external/sqlite" remote="emotroid_rom" name="Emotroid-Rom/android_external_sqlite" groups="pdk" />
