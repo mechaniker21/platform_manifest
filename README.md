@@ -1,7 +1,7 @@
-[Android Open Kang Project](http://aokp.co)
+[Emotion Rom](http://emotroid.com/)
 ====================================
 
-![Kanged Unicorn](http://aokp.co/images/cms-images/106.png)
+![Emotroid Team](http://i.imgur.com/4XAXvMq.png)
 
 Download the Source
 ===================
@@ -15,6 +15,8 @@ Initiate core trees without any device/kernel/vendor:
 
     $ repo init -u https://github.com/Emotroid-Rom/platform_manifest.git -b mm
 
+    $ git clone local_manifest into ./repo
+
 Sync the repository:
 
     $ repo sync -c -f -j4 --force-sync --no-clone-bundle
@@ -26,13 +28,15 @@ Building
 
 After the sync is finished, please read the [instructions from the Android site](http://s.android.com/source/building.html) on how to build.
 
-    . build/envsetup.sh
-    lunch trltexx
+    $ ./build-emotion.sh <device_codename>
 
-You can also build (and see how long it took) for specific devices (eg. trltexx) like this:
+Example for Note 4:
 
-    . build/envsetup.sh
-    lunch aokp_trltexx-userdebug
-    mka rainbowfarts
+    $ ./build-emotion.sh trltexx
+
+For a list of supported options, run the script on it's own:
+
+    $ ./build-emotion.sh
+
 
 Remember to `make clobber && make clean` every now and then!
