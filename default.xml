@@ -56,6 +56,7 @@
   <project path="external/sqlite" remote="emotroid_rom" name="Emotroid-Rom/android_external_sqlite" groups="pdk" />
   <project path="vendor/cmsdk" name="Emotroid-Rom/cm_platform_sdk" remote="emotroid" />
   <project path="packages/apps/InCallUI" remote="emotroid" name="Emotroid-Rom/packages_apps_InCallUI" groups="pdk-fs" />
+  <project path="packages/inputmethods/LatinIME" remote="emotroid" name="Emotroid-Rom/android_packages_inputmethods_LatinIME" groups="pdk-fs" />
 <!-- END EMOTROID -->
 
   <!-- Begin AOKP -->
@@ -323,7 +324,7 @@
   <project path="packages/apps/TvSettings" remote="cm" name="CyanogenMod/android_packages_apps_TvSettings" groups="generic_fs" />
   <project path="packages/apps/UnifiedEmail" remote="cm" name="CyanogenMod/android_packages_apps_UnifiedEmail" groups="pdk-fs" />
   <project path="packages/experimental" remote="cm" name="CyanogenMod/android_packages_experimental" />
-  <project path="packages/inputmethods/LatinIME" remote="cm" name="CyanogenMod/android_packages_inputmethods_LatinIME" groups="pdk-fs" />
+  <!--project path="packages/inputmethods/LatinIME" remote="cm" name="CyanogenMod/android_packages_inputmethods_LatinIME" groups="pdk-fs" /-->
   <project path="packages/providers/BookmarkProvider" remote="cm" name="CyanogenMod/android_packages_providers_BookmarkProvider" groups="pdk-fs" />
   <project path="packages/providers/CalendarProvider" remote="cm" name="CyanogenMod/android_packages_providers_CalendarProvider" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/providers/CallLogProvider" remote="cm" name="CyanogenMod/android_packages_providers_CallLogProvider" groups="pdk-fs" />
