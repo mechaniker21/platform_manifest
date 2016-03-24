@@ -57,6 +57,7 @@
   <project path="vendor/cmsdk" name="Emotroid-Rom/cm_platform_sdk" remote="emotroid" />
   <project path="packages/apps/InCallUI" remote="emotroid" name="Emotroid-Rom/packages_apps_InCallUI" groups="pdk-fs" />
   <project path="packages/inputmethods/LatinIME" remote="emotroid" name="Emotroid-Rom/android_packages_inputmethods_LatinIME" groups="pdk-fs" />
+  <project path="packages/apps/DeskClock" remote="emotroid" name="Emotroid-Rom/android_packages_apps_DeskClock" groups="pdk-fs" />
 <!-- END EMOTROID -->
 
   <!-- Begin AOKP -->
@@ -292,7 +293,7 @@
   <project path="packages/apps/CMWallpapers" remote="cm" name="CyanogenMod/android_packages_apps_CMWallpapers" />
   <project path="packages/apps/Contacts" remote="cm" name="CyanogenMod/android_packages_apps_Contacts" groups="pdk-fs" />
   <project path="packages/apps/ContactsCommon" remote="cm" name="CyanogenMod/android_packages_apps_ContactsCommon" groups="pdk-fs" />
-  <project path="packages/apps/DeskClock" remote="cm" name="CyanogenMod/android_packages_apps_DeskClock" groups="pdk-fs" />
+  <!--project path="packages/apps/DeskClock" remote="cm" name="CyanogenMod/android_packages_apps_DeskClock" groups="pdk-fs" /-->
   <project path="packages/apps/Dialer" remote="cm" name="CyanogenMod/android_packages_apps_Dialer" groups="pdk-fs" />
   <project path="packages/apps/Eleven" remote="cm" name="CyanogenMod/android_packages_apps_Eleven" />
   <project path="packages/apps/Email" remote="cm" name="CyanogenMod/android_packages_apps_Email" groups="pdk-fs" />
