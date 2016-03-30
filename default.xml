@@ -31,7 +31,7 @@
            revision="cm-13.0" />
 
   <default revision="refs/heads/mm"
-           remote="aokp"
+           remote="emotroid"
            sync-c="true"
            sync-j="4" />
 
