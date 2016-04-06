@@ -59,30 +59,10 @@
   <project path="packages/inputmethods/LatinIME" remote="emotroid" name="Emotroid-Rom/android_packages_inputmethods_LatinIME" groups="pdk-fs" />
   <project path="packages/apps/DeskClock" remote="emotroid" name="Emotroid-Rom/android_packages_apps_DeskClock" groups="pdk-fs" />
   <project path="external/chromium-webview" name="Emotroid-Rom/android_external_chromium-webview" groups="pdk" remote="emotroid_rom" />
+  <project path="bootable/recovery" remote="emotroid" name="Emotroid-Rom/bootable_recovery" groups="pdk,pdk-cw-fs" />
+  <project path="external/mksh" remote="emotroid" name="Emotroid-Rom/external_mksh" groups="pdk" />
+  <project path="frameworks/opt/cards" remote="emotroid" name="Emotroid-Rom/frameworks_opt_cards" groups="pdk" />
 <!-- END EMOTROID -->
-
-  <!-- Begin AOKP -->
-  <!--project path="platform_manifest" name="AOKP/platform_manifest" remote="aokp" /-->
-
-  <!--project path="build" name="AOKP/build" groups="pdk" remote="aokp" >
-    <copyfile src="core/root.mk" dest="Makefile" />
-  </project-->
-  <project path="bootable/recovery" remote="aokp" name="AOKP/bootable_recovery" groups="pdk,pdk-cw-fs" />
-  <!--project path="device/qcom/sepolicy" remote="aokp" name="AOKP/device_qcom_sepolicy" /-->
-  <project path="external/mksh" remote="aokp" name="AOKP/external_mksh" groups="pdk" />
-  <!--project path="external/sepolicy" remote="aokp" name="AOKP/external_sepolicy" groups="pdk" /-->
-  <!--project path="frameworks/av" name="AOKP/frameworks_av" groups="pdk" remote="aokp" /-->
-  <!--project path="frameworks/base" name="AOKP/frameworks_base" remote="aokp" groups="pdk-cw-fs,pdk-fs" /-->
-  <project path="frameworks/opt/cards" remote="aokp" name="AOKP/frameworks_opt_cards" groups="pdk" />
-  <!--project path="frameworks/opt/telephony" remote="aokp" name="AOKP/frameworks_opt_telephony" groups="pdk" /-->
-  <!--project path="packages/apps/InCallUI" remote="aokp" name="AOKP/packages_apps_InCallUI" groups="pdk-fs" /-->
-  <!--project path="packages/apps/ROMControl" name="AOKP/packages_apps_ROMControl" remote="aokp" /-->
-  <!--project path="packages/apps/Settings" name="AOKP/packages_apps_Settings" remote="aokp" groups="pdk-fs" /-->
-  <!--project path="packages/services/Telephony" remote="aokp" name="AOKP/packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" /-->
-  <!--project path="packages/wallpapers/SwagPapers" remote="aokp" name="AOKP/packages_wallpapers_SwagPapers" /-->
-  <!--project path="system/core" remote="aokp" name="AOKP/system_core" groups="pdk" /-->
-  <!--project path="vendor/aokp" name="AOKP/vendor_aokp" remote="aokp" /-->
-  <!--project path="vendor/cmsdk" name="AOKP/cm_platform_sdk" remote="aokp" /-->
 
   <!-- Begin CM -->
   <project path="abi/cpp" remote="cm" name="CyanogenMod/android_abi_cpp" groups="pdk" />
@@ -404,7 +384,7 @@
   <project path="external/crcalc" name="platform/external/crcalc" groups="pdk-fs" remote="aosp" />
   <project path="external/deqp" name="platform/external/deqp" groups="pdk-fs" remote="aosp" />
   <project path="external/dexmaker" name="platform/external/dexmaker" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="external/doclava" name="CyanogenMod/android_external_doclava" groups="pdk-cw-fs,pdk-fs" />
+  <project path="external/doclava" name="CyanogenMod/android_external_doclava" groups="pdk-cw-fs,pdk-fs" remote="cm" />
   <project path="external/donuts" name="platform/external/donuts" groups="pdk-fs" remote="aosp" />
   <project path="external/drm_gralloc" name="platform/external/drm_gralloc" groups="drm_gralloc" remote="aosp" />
   <project path="external/drm_hwcomposer" name="platform/external/drm_hwcomposer" groups="drm_hwcomposer" remote="aosp" />
@@ -431,7 +411,7 @@
   <project path="external/google-fonts/dancing-script" name="platform/external/google-fonts/dancing-script" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/google-tv-pairing-protocol" name="platform/external/google-tv-pairing-protocol" groups="pdk-fs" remote="aosp" />
   <project path="external/gtest" name="platform/external/gtest" groups="pdk" remote="aosp" />
-  <project path="external/guava" name="CyanogenMod/android_external_guava" groups="pdk-cw-fs,pdk-fs" />
+  <project path="external/guava" name="CyanogenMod/android_external_guava" groups="pdk-cw-fs,pdk-fs" remote="cm" />
   <project path="external/hamcrest" name="platform/external/hamcrest" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/harfbuzz_ng" name="platform/external/harfbuzz_ng" groups="pdk,qcom_msm8x26" remote="aosp" />
   <project path="external/hyphenation-patterns" name="platform/external/hyphenation-patterns" groups="pdk-fs" remote="aosp" />
@@ -529,7 +509,7 @@
   <project path="external/valgrind" name="platform/external/valgrind" groups="pdk" remote="aosp" />
   <project path="external/vboot_reference" name="platform/external/vboot_reference" groups="vboot" remote="aosp" />
   <project path="external/vixl" name="platform/external/vixl" groups="pdk" remote="aosp" />
-  <project path="external/vogar" name="CyanogenMod/android_external_vogar" groups="pdk" />
+  <project path="external/vogar" name="CyanogenMod/android_external_vogar" groups="pdk" remote="cm" />
   <project path="external/webp" name="platform/external/webp" groups="pdk,qcom_msm8x26" remote="aosp" />
   <project path="external/webrtc" name="platform/external/webrtc" groups="pdk" remote="aosp" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
