@@ -59,7 +59,6 @@
   <project path="packages/inputmethods/LatinIME" remote="emotroid" name="Emotroid-Rom/android_packages_inputmethods_LatinIME" groups="pdk-fs" />
   <project path="packages/apps/DeskClock" remote="emotroid" name="Emotroid-Rom/android_packages_apps_DeskClock" groups="pdk-fs" />
   <project path="external/chromium-webview" name="Emotroid-Rom/android_external_chromium-webview" groups="pdk" remote="emotroid_rom" />
-  <project path="bootable/recovery" remote="emotroid" name="Emotroid-Rom/bootable_recovery" groups="pdk,pdk-cw-fs" />
   <project path="external/mksh" remote="emotroid" name="Emotroid-Rom/external_mksh" groups="pdk" />
   <project path="frameworks/opt/cards" remote="emotroid" name="Emotroid-Rom/frameworks_opt_cards" groups="pdk" />
 <!-- END EMOTROID -->
@@ -68,7 +67,7 @@
   <project path="abi/cpp" remote="cm" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <project path="art" remote="cm" name="CyanogenMod/android_art" groups="pdk" />
   <project path="bionic" remote="cm" name="CyanogenMod/android_bionic" groups="pdk" />
-  <!--project path="bootable/recovery" remote="cm" name="CyanogenMod/android_bootable_recovery" groups="pdk" /-->
+  <project path="bootable/recovery" remote="cm" name="CyanogenMod/android_bootable_recovery" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" revision="marshmallow-cts-release" remote="aosp" />
   <project path="dalvik" remote="cm" name="CyanogenMod/android_dalvik" groups="pdk-cw-fs,pdk-fs" />
   <project path="development" remote="cm" name="CyanogenMod/android_development" groups="pdk-cw-fs,pdk-fs" />
