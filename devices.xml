@@ -27,7 +27,7 @@
   <project name="Emotroid-Rom/android_device_samsung_trltexx" path="device/samsung/trltexx" remote="emotroid" />
   <project name="Emotroid-Rom/android_device_samsung_trltespr" path="device/samsung/trltespr" remote="emotroid" />
   <project name="Emotroid-Rom/proprietary_vendor_samsung" path="vendor/samsung" remote="emotroid" />
-  <project name="Emotroid-Rom/emotion_cm_kernel_trlte" path="kernel/samsung/trlte" remote="emotroid_rom" />
+  <project name="Emotroid-Rom/emotion_cm_kernel_trlte" path="kernel/samsung/trlte" remote="emotroid" />
 
   <!-- Samsung Galaxy S5 Family -->
   <project path="device/samsung/klte-common" name="AOKP/device_samsung_klte-common" remote="aokp" />
