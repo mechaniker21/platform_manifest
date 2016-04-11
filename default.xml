@@ -61,6 +61,8 @@
   <project path="external/chromium-webview" name="Emotroid-Rom/android_external_chromium-webview" groups="pdk" remote="emotroid_rom" />
   <project path="external/mksh" remote="emotroid" name="Emotroid-Rom/external_mksh" groups="pdk" />
   <project path="frameworks/opt/cards" remote="emotroid" name="Emotroid-Rom/frameworks_opt_cards" groups="pdk" />
+  <project path="packages/apps/DUI" remote="emotroid" name="Emotroid-Rom/android_packages_apps_DUI" />
+  <project path="external/DUtils" remote="emotroid" name="Emotroid-Rom/android_external_DUtils" />
 <!-- END EMOTROID -->
 
   <!-- Begin CM -->
