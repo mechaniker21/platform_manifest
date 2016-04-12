@@ -63,6 +63,8 @@
   <project path="frameworks/opt/cards" remote="emotroid" name="Emotroid-Rom/frameworks_opt_cards" groups="pdk" />
   <project path="packages/apps/DUI" remote="emotroid" name="Emotroid-Rom/android_packages_apps_DUI" />
   <project path="external/DUtils" remote="emotroid" name="Emotroid-Rom/android_external_DUtils" />
+  <project path="packages/apps/EmotionOTA" remote="emotroid" name="Emotroid-Rom/packages_apps_EmotionOTA" />
+  <project path="OTA" remote="emotroid" name="Emotroid-Rom/OTA" />
 <!-- END EMOTROID -->
 
   <!-- Begin CM -->
