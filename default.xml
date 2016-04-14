@@ -66,6 +66,7 @@
   <project path="packages/apps/EmotionOTA" remote="emotroid" name="Emotroid-Rom/packages_apps_EmotionOTA" />
   <project path="OTA" remote="emotroid" name="Emotroid-Rom/OTA" />
   <project path="packages/services/Telecomm" remote="emotroid" name="Emotroid-Rom/android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" />
+  <project path="changelogs" remote="emotroid" name="Emotroid-Rom/Changelogs" />
 <!-- END EMOTROID -->
 
   <!-- Begin CM -->
