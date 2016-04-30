@@ -68,6 +68,7 @@
   <project path="packages/services/Telecomm" remote="emotroid" name="Emotroid-Rom/android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Bluetooth" remote="emotroid" name="Emotroid-Rom/android_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" />
   <project path="changelogs" remote="emotroid" name="Emotroid-Rom/Changelogs" />
+  <project path="external/Emotroid_utils" remote="emotroid" name="Emotroid-Rom/android_external_Emotroid_utils" />
 <!-- END EMOTROID -->
 
   <!-- Begin CM -->
