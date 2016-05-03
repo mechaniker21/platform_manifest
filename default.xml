@@ -70,6 +70,7 @@
   <project path="changelogs" remote="emotroid" name="Emotroid-Rom/Changelogs" />
   <project path="external/Emotroid_utils" remote="emotroid" name="Emotroid-Rom/android_external_Emotroid_utils" />
   <project path="packages/providers/WeatherProvider" remote="emotroid" name="Emotroid-Rom/android_packages_providers_WeatherProvider" />
+  <project path="vendor/cmsdk/samples/weatherproviderservice/OpenWeatherMapProvider" remote="emotroid" name="Emotroid-Rom/android_packages_apps_OpenWeatherMapProvider" />
 <!-- END EMOTROID -->
 
   <!-- Begin CM -->
@@ -360,7 +361,7 @@
 
   <!-- CMSDK SAMPLES -->
   <project path="vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider" remote="cm" name="CyanogenMod/android_packages_apps_WundergroundWeatherProvider" />
-  <project path="vendor/cmsdk/samples/weatherproviderservice/OpenWeatherMapProvider" remote="cm" name="CyanogenMod/android_packages_apps_OpenWeatherMapProvider" />
+  <!--project path="vendor/cmsdk/samples/weatherproviderservice/OpenWeatherMapProvider" remote="cm" name="CyanogenMod/android_packages_apps_OpenWeatherMapProvider" /-->
   
   <!-- END CMSDK SAMPLES -->
 
