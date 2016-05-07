@@ -30,6 +30,10 @@
   <project name="Emotroid-Rom/proprietary_vendor_samsung" path="vendor/samsung" remote="emotroid" />
   <project name="Emotroid-Rom/emotion_cm_kernel_trlte" path="kernel/samsung/trlte" remote="emotroid" />
 
+  <!-- Samsung Galaxy Express (GT-I8730) -->
+  <project name="Emotroid-Rom/android_device_samsung_expressltexx" path="device/samsung/expressltexx" remote="emotroid" />
+  <project name="Emotroid-Rom/android_kernel_samsung_expressltexx-common" path="kernel/samsung/expressltexx" remote="emotroid" />
+
   <!-- Samsung Galaxy S5 Family -->
   <project path="device/samsung/klte-common" name="AOKP/device_samsung_klte-common" remote="aokp" />
   <project path="device/samsung/klte" name="AOKP/device_samsung_klte" remote="aokp" />
