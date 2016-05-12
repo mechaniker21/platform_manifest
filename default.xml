@@ -71,6 +71,7 @@
   <project path="external/Emotroid_utils" remote="emotroid" name="Emotroid-Rom/android_external_Emotroid_utils" />
   <project path="packages/providers/WeatherProvider" remote="emotroid" name="Emotroid-Rom/android_packages_providers_WeatherProvider" />
   <project path="vendor/cmsdk/samples/weatherproviderservice/OpenWeatherMapProvider" remote="emotroid" name="Emotroid-Rom/android_packages_apps_OpenWeatherMapProvider" />
+  <project path="external/conscrypt" remote="emotroid" name="Emotroid-Rom/android_external_conscrypt" />
 <!-- END EMOTROID -->
 
   <!-- Begin CM -->
@@ -362,7 +363,7 @@
   <project path="external/clang" name="platform/external/clang" groups="pdk" remote="aosp" />
   <project path="external/cmockery" name="platform/external/cmockery" groups="pdk-fs" remote="aosp" />
   <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" remote="aosp" />
-  <project path="external/conscrypt" name="platform/external/conscrypt" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
+  <!--project path="external/conscrypt" name="platform/external/conscrypt" groups="pdk-cw-fs,pdk-fs" remote="aosp" /-->
   <project path="external/crcalc" name="platform/external/crcalc" groups="pdk-fs" remote="aosp" />
   <project path="external/deqp" name="platform/external/deqp" groups="pdk-fs" remote="aosp" />
   <project path="external/dexmaker" name="platform/external/dexmaker" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
