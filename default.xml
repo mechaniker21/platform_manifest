@@ -72,6 +72,7 @@
   <project path="packages/providers/WeatherProvider" remote="emotroid" name="Emotroid-Rom/android_packages_providers_WeatherProvider" />
   <project path="vendor/cmsdk/samples/weatherproviderservice/OpenWeatherMapProvider" remote="emotroid" name="Emotroid-Rom/android_packages_apps_OpenWeatherMapProvider" />
   <project path="external/conscrypt" remote="emotroid" name="Emotroid-Rom/android_external_conscrypt" />
+  <project path="hardware/qcom/keymaster" remote="emotroid" name="Emotroid-Rom/android_hardware_qcom_keymaster" groups="qcom,qcom_keymaster" />
 <!-- END EMOTROID -->
 
   <!-- Begin CM -->
