@@ -243,7 +243,7 @@
   <project path="packages/apps/BluetoothExt" remote="cm" name="CyanogenMod/android_packages_apps_BluetoothExt" />
   <project path="packages/apps/Browser" remote="cm" name="CyanogenMod/android_packages_apps_Browser" groups="pdk-fs" />
   <project path="packages/apps/Calendar" remote="cm" name="CyanogenMod/android_packages_apps_Calendar" groups="pdk-fs" />
-  <!--project path="packages/apps/Camera2" remote="cm" name="CyanogenMod/android_packages_apps_Camera2" groups="pdk-fs" /-->
+  <project path="packages/apps/Camera2" remote="cm" name="CyanogenMod/android_packages_apps_Camera2" groups="pdk-fs" />
   <project path="packages/apps/CarrierConfig" remote="cm" name="CyanogenMod/android_packages_apps_CarrierConfig" groups="pdk-fs" />
   <project path="packages/apps/CellBroadcastReceiver" remote="cm" name="CyanogenMod/android_packages_apps_CellBroadcastReceiver" groups="pdk-fs" />
   <project path="packages/apps/CertInstaller" remote="cm" name="CyanogenMod/android_packages_apps_CertInstaller" groups="pdk-fs" />
