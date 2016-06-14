@@ -73,6 +73,7 @@
   <project path="vendor/cmsdk/samples/weatherproviderservice/OpenWeatherMapProvider" remote="emotroid" name="Emotroid-Rom/android_packages_apps_OpenWeatherMapProvider" />
   <project path="hardware/qcom/keymaster" remote="emotroid" name="Emotroid-Rom/android_hardware_qcom_keymaster" groups="qcom,qcom_keymaster" />
   <project path="hardware/broadcom/libbt" remote="emotroid" name="Emotroid-Rom/android_hardware_broadcom_libbt" groups="pdk" />
+  <project path="system/extras/su" remote="emotroid" name="Emotroid-Rom/android_system_extras_su" />
 <!-- END EMOTROID -->
 
   <!-- Begin CM -->
@@ -314,7 +315,7 @@
   <project path="prebuilts/cmsdk" remote="cm" name="CyanogenMod/android_prebuilts_cmsdk" revision="master" clone-depth="1" />
   <project path="system/bt" remote="cm" name="CyanogenMod/android_system_bt" groups="pdk" />
   <project path="system/extras" remote="cm" name="CyanogenMod/android_system_extras" groups="pdk" />
-  <project path="system/extras/su" remote="cm" name="CyanogenMod/android_system_extras_su" />
+  <!--project path="system/extras/su" remote="cm" name="CyanogenMod/android_system_extras_su" /-->
   <project path="system/keymaster" remote="cm" name="CyanogenMod/android_system_keymaster" groups="pdk" />
   <project path="system/media" remote="cm" name="CyanogenMod/android_system_media" groups="pdk" />
   <project path="system/netd" remote="cm" name="CyanogenMod/android_system_netd" groups="pdk" />
