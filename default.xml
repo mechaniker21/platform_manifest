@@ -74,6 +74,7 @@
   <project path="hardware/qcom/keymaster" remote="emotroid" name="Emotroid-Rom/android_hardware_qcom_keymaster" groups="qcom,qcom_keymaster" />
   <project path="hardware/broadcom/libbt" remote="emotroid" name="Emotroid-Rom/android_hardware_broadcom_libbt" groups="pdk" />
   <project path="system/extras/su" remote="emotroid" name="Emotroid-Rom/android_system_extras_su" />
+  <project path="packages/apps/OmniSwitch" remote="emotroid" name="Emotroid-Rom/android_packages_apps_OmniSwitch" />
 <!-- END EMOTROID -->
 
   <!-- Begin CM -->
