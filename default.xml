@@ -75,11 +75,12 @@
   <project path="hardware/broadcom/libbt" remote="emotroid" name="Emotroid-Rom/android_hardware_broadcom_libbt" groups="pdk" />
   <project path="system/extras/su" remote="emotroid" name="Emotroid-Rom/android_system_extras_su" />
   <project path="packages/apps/OmniSwitch" remote="emotroid" name="Emotroid-Rom/android_packages_apps_OmniSwitch" />
+  <project path="art" remote="emotroid" name="Emotroid-Rom/android_art" groups="pdk" />
 <!-- END EMOTROID -->
 
   <!-- Begin CM -->
   <project path="abi/cpp" remote="cm" name="CyanogenMod/android_abi_cpp" groups="pdk" />
-  <project path="art" remote="cm" name="CyanogenMod/android_art" groups="pdk" />
+  <!--project path="art" remote="cm" name="CyanogenMod/android_art" groups="pdk" /-->
   <project path="bionic" remote="cm" name="CyanogenMod/android_bionic" groups="pdk" />
   <project path="bootable/recovery" remote="cm" name="CyanogenMod/android_bootable_recovery" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" revision="marshmallow-cts-release" remote="aosp" />
