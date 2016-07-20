@@ -90,7 +90,7 @@
 
   <!-- Miscellaneous -->
   <!-- Qualcomm Common -->
-  <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="cm" />
+  <project name="Emotroid-Rom/android_device_qcom_common" path="device/qcom/common" remote="emotroid" />
   <!-- Ordinary external dependencies -->
   <project name="CyanogenMod/android_external_stlport" path="external/stlport" remote="cm" />
 
