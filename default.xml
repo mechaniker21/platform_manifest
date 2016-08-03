@@ -77,6 +77,8 @@
   <project path="packages/apps/OmniSwitch" remote="emotroid" name="Emotroid-Rom/android_packages_apps_OmniSwitch" />
   <project path="art" remote="emotroid" name="Emotroid-Rom/android_art" groups="pdk" />
   <project path="frameworks/native" remote="emotroid" name="Emotroid-Rom/android_frameworks_native" groups="pdk" />
+  <project path="packages/services/CMAudioService" name="Emotroid-Rom/android_packages_services_CMAudioService" groups="pdk-cw-fs,pdk-fs" remote="emotroid" />
+  <project path="packages/services/ThemeManagerService" name="Emotroid-Rom/android_packages_services_ThemeManagerService" groups="pdk-cw-fs,pdk-fs" remote="emotroid" />
 <!-- END EMOTROID -->
 
   <!-- Begin CM -->
