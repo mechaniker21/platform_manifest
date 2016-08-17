@@ -79,13 +79,14 @@
   <project path="frameworks/native" remote="emotroid" name="Emotroid-Rom/android_frameworks_native" groups="pdk" />
   <project path="packages/services/CMAudioService" name="Emotroid-Rom/android_packages_services_CMAudioService" groups="pdk-cw-fs,pdk-fs" remote="emotroid" />
   <project path="packages/services/ThemeManagerService" name="Emotroid-Rom/android_packages_services_ThemeManagerService" groups="pdk-cw-fs,pdk-fs" remote="emotroid" />
+  <project path="bootable/recovery" remote="emotroid" name="Emotroid-Rom/android_bootable_recovery" groups="pdk" />
 <!-- END EMOTROID -->
 
   <!-- Begin CM -->
   <project path="abi/cpp" remote="cm" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <!--project path="art" remote="cm" name="CyanogenMod/android_art" groups="pdk" /-->
   <project path="bionic" remote="cm" name="CyanogenMod/android_bionic" groups="pdk" />
-  <project path="bootable/recovery" remote="cm" name="CyanogenMod/android_bootable_recovery" groups="pdk" />
+  <!--project path="bootable/recovery" remote="cm" name="CyanogenMod/android_bootable_recovery" groups="pdk" /-->
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" revision="marshmallow-cts-release" remote="aosp" />
   <project path="dalvik" remote="cm" name="CyanogenMod/android_dalvik" groups="pdk-cw-fs,pdk-fs" />
   <project path="development" remote="cm" name="CyanogenMod/android_development" groups="pdk-cw-fs,pdk-fs" />
