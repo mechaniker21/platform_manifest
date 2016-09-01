@@ -86,6 +86,7 @@
 <!-- END EMOTROID -->
 
   <!-- Begin CM -->
+  <project path="packages/services/WeatherService" remote="cm" name="CyanogenMod/android_packages_services_WeatherService" groups="pdk-cw-fs,pdk-fs" />
   <project path="abi/cpp" remote="cm" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <!--project path="art" remote="cm" name="CyanogenMod/android_art" groups="pdk" /-->
   <!--project path="bionic" remote="cm" name="CyanogenMod/android_bionic" groups="pdk" /-->
