@@ -29,6 +29,17 @@
   <remote  name="emotroid_rom"
            fetch="https://github.com/"
            revision="cm-13.0" />
+  
+  <remote  name="emotroid_test"
+           fetch="https://github.com/"
+           revision="mm_test" />
+  
+  <remote  name="dragon"
+           fetch="https://github.com/"
+           revision="mm_test" />
+  
+  <remote  name="cmremix"
+           fetch="https://bitbucket.org/CMRemix/" />
 
   <default revision="refs/heads/mm"
            remote="emotroid"
@@ -36,9 +47,15 @@
            sync-j="4" />
 
 <!-- BEGIN EMOTROID -->
-  <project path="platform_manifest" name="Emotroid-Rom/platform_manifest" remote="emotroid" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="arm-eabi-4.9" remote="cmremix" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-7.0" name="arm-eabi-7.0" groups="pdk,linux,arm" remote="cmremix" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="arm-linux-androideabi-4.9" remote="cmremix" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.3" name="arm-linux-androideabi-5.3" remote="cmremix" revision="master" />
+  <project path="prebuilts/ndk" name="dragon-tc/android_prebuilts_ndk" groups="pdk" remote="dragon" revision="master" />
+  <project path="prebuilts/clang/linux-x86/host/3.9" name="Emotroid-Rom/Dragon-TC" groups="pdk,linux" remote="emotroid_test" revision="3.9" />
+  <project path="platform_manifest" name="Emotroid-Rom/platform_manifest" remote="emotroid_test" />
 
-  <project path="build" name="Emotroid-Rom/build" remote="emotroid" >
+  <project path="build" name="Emotroid-Rom/build" remote="emotroid_test" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="frameworks/base" name="Emotroid-Rom/frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="emotroid" />
@@ -48,7 +65,7 @@
   <project path="packages/apps/ROMControl" name="Emotroid-Rom/packages_apps_ROMControl" remote="emotroid" />
   <project path="packages/services/Telephony" name="Emotroid-Rom/packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="emotroid" />
   <project path="system/core" remote="emotroid" name="Emotroid-Rom/system_core" groups="pdk" />
-  <project path="vendor/emotion" name="Emotroid-Rom/vendor_emotion" remote="emotroid" >
+  <project path="vendor/emotion" name="Emotroid-Rom/vendor_emotion" remote="emotroid_test" >
     <copyfile src="tools/build-emotion.sh" dest="build-emotion.sh"/>
   </project>
   <project path="external/sepolicy" remote="emotroid" name="Emotroid-Rom/external_sepolicy" groups="pdk" />
@@ -75,13 +92,14 @@
   <project path="hardware/broadcom/libbt" remote="emotroid" name="Emotroid-Rom/android_hardware_broadcom_libbt" groups="pdk" />
   <project path="system/extras/su" remote="emotroid" name="Emotroid-Rom/android_system_extras_su" />
   <project path="packages/apps/OmniSwitch" remote="emotroid" name="Emotroid-Rom/android_packages_apps_OmniSwitch" />
-  <project path="art" remote="emotroid" name="Emotroid-Rom/android_art" groups="pdk" />
+  <project path="art" remote="emotroid_test" name="Emotroid-Rom/android_art" groups="pdk" />
   <project path="frameworks/native" remote="emotroid" name="Emotroid-Rom/android_frameworks_native" groups="pdk" />
   <project path="packages/services/CMAudioService" name="Emotroid-Rom/android_packages_services_CMAudioService" groups="pdk-cw-fs,pdk-fs" remote="emotroid" />
   <project path="packages/services/ThemeManagerService" name="Emotroid-Rom/android_packages_services_ThemeManagerService" groups="pdk-cw-fs,pdk-fs" remote="emotroid" />
   <project path="bootable/recovery" remote="emotroid" name="Emotroid-Rom/android_bootable_recovery" groups="pdk" />
   <project path="packages/apps/SetupWizard" remote="emotroid" name="Emotroid-Rom/packages_apps_SetupWizard" />
-  <project path="bionic" remote="emotroid" name="Emotroid-Rom/android_bionic" groups="pdk" />
+  <project path="bionic" remote="emotroid_test" name="Emotroid-Rom/android_bionic" groups="pdk" />
+  <project path="frameworks/rs" remote="emotroid_test" name="Emotroid-Rom/android_frameworks_rs" groups="pdk" />
 <!-- END EMOTROID -->
 
   <!-- Begin CM -->
@@ -219,7 +237,6 @@
   <project path="frameworks/opt/setupwizard" remote="cm" name="CyanogenMod/android_frameworks_opt_setupwizard" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/timezonepicker" remote="cm" name="CyanogenMod/android_frameworks_opt_timezonepicker" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/vcard" remote="cm" name="CyanogenMod/android_frameworks_opt_vcard" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/rs" remote="cm" name="CyanogenMod/android_frameworks_rs" groups="pdk" />
   <project path="frameworks/support" remote="cm" name="CyanogenMod/android_frameworks_support" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/volley" remote="cm" name="CyanogenMod/android_frameworks_volley" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/webview" remote="cm" name="CyanogenMod/android_frameworks_webview" groups="pdk-cw-fs,pdk-fs" />
@@ -533,7 +550,6 @@
   <project path="platform_testing" name="platform/platform_testing" remote="aosp" />
   <project path="prebuilts/android-emulator" name="platform/prebuilts/android-emulator" groups="pdk-fs" remote="aosp" clone-depth="1" />
   <project path="prebuilts/clang/darwin-x86/host/3.6" name="platform/prebuilts/clang/darwin-x86/host/3.6" groups="pdk,darwin" remote="aosp" clone-depth="1" />
-  <project path="prebuilts/clang/linux-x86/host/3.6" name="platform/prebuilts/clang/linux-x86/host/3.6" groups="pdk,linux" remote="aosp" clone-depth="1" />
   <project path="prebuilts/devtools" name="platform/prebuilts/devtools" groups="pdk-fs" remote="aosp" clone-depth="1" />
   <project path="prebuilts/eclipse" name="platform/prebuilts/eclipse" groups="pdk" remote="aosp" clone-depth="1" />
   <project path="prebuilts/eclipse-build-deps" name="platform/prebuilts/eclipse-build-deps" groups="notdefault,eclipse" remote="aosp" clone-depth="1" />
@@ -555,7 +571,6 @@
   <project path="prebuilts/libs/libedit" name="platform/prebuilts/libs/libedit" groups="pdk-cw-fs,pdk-fs" remote="aosp" clone-depth="1" />
   <project path="prebuilts/maven_repo/android" name="platform/prebuilts/maven_repo/android" groups="pdk-cw-fs,pdk-fs" remote="aosp" clone-depth="1" />
   <project path="prebuilts/misc" name="platform/prebuilts/misc" groups="pdk" remote="aosp" clone-depth="1" />
-  <project path="prebuilts/ndk" name="platform/prebuilts/ndk" groups="pdk" remote="aosp" clone-depth="1" />
   <project path="prebuilts/python/darwin-x86/2.7.5" name="platform/prebuilts/python/darwin-x86/2.7.5" groups="darwin,pdk,pdk-cw-fs,pdk-fs" remote="aosp" clone-depth="1" />
   <project path="prebuilts/python/linux-x86/2.7.5" name="platform/prebuilts/python/linux-x86/2.7.5" groups="linux,pdk,pdk-cw-fs,pdk-fs" remote="aosp" clone-depth="1" />
   <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" groups="pdk" clone-depth="1" remote="aosp" />
