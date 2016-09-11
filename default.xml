@@ -6,9 +6,6 @@
            review="android-review.googlesource.com"
            revision="refs/tags/android-6.0.1_r66" />
 
-  <remote  name="github"
-           fetch=".." />
-
   <remote  name="aokp"
            revision="refs/heads/mm"
            fetch=".."
@@ -30,13 +27,8 @@
            fetch="https://github.com/"
            revision="cm-13.0" />
   
-  <remote  name="emotroid_test"
-           fetch="https://github.com/"
-           revision="mm_test" />
-  
-  <remote  name="dragon"
-           fetch="https://github.com/"
-           revision="mm_test" />
+  <remote  name="github"
+           fetch="https://github.com/" />
   
   <remote  name="cmremix"
            fetch="https://bitbucket.org/CMRemix/" />
@@ -51,11 +43,11 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-7.0" name="arm-eabi-7.0" groups="pdk,linux,arm" remote="cmremix" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="arm-linux-androideabi-4.9" remote="cmremix" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.3" name="arm-linux-androideabi-5.3" remote="cmremix" revision="master" />
-  <project path="prebuilts/ndk" name="dragon-tc/android_prebuilts_ndk" groups="pdk" remote="dragon" revision="master" />
-  <project path="prebuilts/clang/linux-x86/host/3.9" name="Emotroid-Rom/Dragon-TC" groups="pdk,linux" remote="emotroid_test" revision="3.9" />
-  <project path="platform_manifest" name="Emotroid-Rom/platform_manifest" remote="emotroid_test" />
+  <project path="prebuilts/ndk" name="dragon-tc/android_prebuilts_ndk" groups="pdk" remote="github" revision="master" />
+  <project path="prebuilts/clang/linux-x86/host/3.9" name="Emotroid-Rom/Dragon-TC" groups="pdk,linux" remote="emotroid" revision="3.9" />
+  <project path="platform_manifest" name="Emotroid-Rom/platform_manifest" remote="github" revision="mm_test" />
 
-  <project path="build" name="Emotroid-Rom/build" remote="emotroid_test" >
+  <project path="build" name="Emotroid-Rom/build" remote="github" revision="mm_test" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="frameworks/base" name="Emotroid-Rom/frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="emotroid" />
@@ -65,7 +57,7 @@
   <project path="packages/apps/ROMControl" name="Emotroid-Rom/packages_apps_ROMControl" remote="emotroid" />
   <project path="packages/services/Telephony" name="Emotroid-Rom/packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="emotroid" />
   <project path="system/core" remote="emotroid" name="Emotroid-Rom/system_core" groups="pdk" />
-  <project path="vendor/emotion" name="Emotroid-Rom/vendor_emotion" remote="emotroid_test" >
+  <project path="vendor/emotion" name="Emotroid-Rom/vendor_emotion" remote="github" revision="mm_test" >
     <copyfile src="tools/build-emotion.sh" dest="build-emotion.sh"/>
   </project>
   <project path="external/sepolicy" remote="emotroid" name="Emotroid-Rom/external_sepolicy" groups="pdk" />
@@ -92,14 +84,14 @@
   <project path="hardware/broadcom/libbt" remote="emotroid" name="Emotroid-Rom/android_hardware_broadcom_libbt" groups="pdk" />
   <project path="system/extras/su" remote="emotroid" name="Emotroid-Rom/android_system_extras_su" />
   <project path="packages/apps/OmniSwitch" remote="emotroid" name="Emotroid-Rom/android_packages_apps_OmniSwitch" />
-  <project path="art" remote="emotroid_test" name="Emotroid-Rom/android_art" groups="pdk" />
+  <project path="art" remote="github" name="Emotroid-Rom/android_art" groups="pdk" revision="mm_test" />
   <project path="frameworks/native" remote="emotroid" name="Emotroid-Rom/android_frameworks_native" groups="pdk" />
   <project path="packages/services/CMAudioService" name="Emotroid-Rom/android_packages_services_CMAudioService" groups="pdk-cw-fs,pdk-fs" remote="emotroid" />
   <project path="packages/services/ThemeManagerService" name="Emotroid-Rom/android_packages_services_ThemeManagerService" groups="pdk-cw-fs,pdk-fs" remote="emotroid" />
   <project path="bootable/recovery" remote="emotroid" name="Emotroid-Rom/android_bootable_recovery" groups="pdk" />
   <project path="packages/apps/SetupWizard" remote="emotroid" name="Emotroid-Rom/packages_apps_SetupWizard" />
-  <project path="bionic" remote="emotroid_test" name="Emotroid-Rom/android_bionic" groups="pdk" />
-  <project path="frameworks/rs" remote="emotroid_test" name="Emotroid-Rom/android_frameworks_rs" groups="pdk" />
+  <project path="bionic" remote="github" name="Emotroid-Rom/android_bionic" groups="pdk" revision="mm_test" />
+  <project path="frameworks/rs" remote="github" name="Emotroid-Rom/android_frameworks_rs" groups="pdk" revision="mm_test" />
 <!-- END EMOTROID -->
 
   <!-- Begin CM -->
