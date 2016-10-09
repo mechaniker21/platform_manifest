@@ -24,18 +24,18 @@
 
   <!-- OnePlus -->
   <!-- OnePlus 3 (A3003) -->
-  <project branch="mm" name="Emotroid-Rom/proprietary_vendor_oneplus" path="vendor/oneplus" remote="emotroid" />
-  <project branch="mm" name="Emotroid-Rom/android_kernel_oneplus_msm8996" path="kernel/oneplus/msm8996" remote="emotroid" />
-  <project branch="mm" name="Emotroid-Rom/android_device_oneplus_oneplus3" path="device/oneplus/oneplus3" remote="emotroid" />
-  <project branch="mm" name="Emotroid-Rom/android_device_oppo_common" path="device/oppo/common" remote="emotroid" />
+  <project branch="nougat" name="Emotroid-Rom/proprietary_vendor_oneplus" path="vendor/oneplus" remote="emotroid" />
+  <project branch="nougat" name="Emotroid-Rom/android_kernel_oneplus_msm8996" path="kernel/oneplus/msm8996" remote="emotroid" />
+  <project branch="nougat" name="Emotroid-Rom/android_device_oneplus_oneplus3" path="device/oneplus/oneplus3" remote="emotroid" />
+  <project branch="nougat" name="Emotroid-Rom/android_device_oppo_common" path="device/oppo/common" remote="emotroid" />
 
   <!-- Samsung -->
   <!-- Samsung Note 4 (trltexx) Family -->
-  <project name="Emotroid-Rom/android_device_samsung_trltexx" path="device/samsung/trltexx" remote="emotroid" />
-  <project name="Emotroid-Rom/android_device_samsung_trltespr" path="device/samsung/trltespr" remote="emotroid" />
-  <project name="Emotroid-Rom/android_device_samsung_trltetmor" path="device/samsung/trltetmo" remote="emotroid" />
-  <project name="Emotroid-Rom/proprietary_vendor_samsung" path="vendor/samsung" remote="emotroid" />
-  <project name="Emotroid-Rom/emotion_cm_kernel_trlte" path="kernel/samsung/trlte" remote="emotroid" />
+  <project branch="nougat" name="Emotroid-Rom/android_device_samsung_trltexx" path="device/samsung/trltexx" remote="emotroid" />
+  <project branch="nougat" name="Emotroid-Rom/android_device_samsung_trltespr" path="device/samsung/trltespr" remote="emotroid" />
+  <project branch="nougat" name="Emotroid-Rom/android_device_samsung_trltetmor" path="device/samsung/trltetmo" remote="emotroid" />
+  <project branch="nougat" name="Emotroid-Rom/proprietary_vendor_samsung" path="vendor/samsung" remote="emotroid" />
+  <project branch="nougat" name="Emotroid-Rom/emotion_cm_kernel_trlte" path="kernel/samsung/trlte" remote="emotroid" />
 
   <!-- Samsung Galaxy Express (GT-I8730) -->
   <project name="Emotroid-Rom/android_device_samsung_expressltexx" path="device/samsung/expressltexx" remote="emotroid" />

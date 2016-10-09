@@ -13,7 +13,7 @@ Initializing Repository
 
 Initiate core trees without any device/kernel/vendor:
 
-    $ repo init -u https://github.com/Emotroid-Rom/platform_manifest.git -b mm
+    $ repo init -u https://github.com/Emotroid-Rom/platform_manifest.git -b nougat
 
     $ git clone local_manifest into ./repo
 
