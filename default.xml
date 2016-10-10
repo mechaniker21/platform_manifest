@@ -7,19 +7,19 @@
 
   <remote  name="emotroid"
            fetch="https://github.com/"
-           revision="refs/heads/nougat" />
+           revision="nougat" />
 
   <remote  name="cm"
            fetch=".."
            review="review.cyanogenmod.org"
-           revision="refs/heads/cm-14.0" />
+           revision="cm-14.0" />
 
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com"
            revision="refs/tags/android-7.0.0_r14" />
 
-  <default revision="refs/heads/cm-14.0"
+  <default revision="cm-14.0"
            remote="github"
            sync-c="true"
            sync-j="4" />
