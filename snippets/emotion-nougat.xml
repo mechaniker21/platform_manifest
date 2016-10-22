@@ -11,6 +11,7 @@
   <project path="changelogs" remote="emotroid" name="Emotroid-Rom/Changelogs" />
   <project path="packages/apps/EmotionOTA" name="Emotroid-Rom/packages_apps_EmotionOTA" remote="emotroid" />
   <project path="OTA" name="Emotroid-Rom/OTA" remote="emotroid" />
+  <project path="packages/apps/emotionSettings" name="Emotroid-Rom/android_packages_apps_emotionSettings" remote="emotroid" />
   <project path="external/sqlite" name="Emotroid-Rom/android_external_sqlite" groups="pdk" remote="emotroid" />
   <project path="frameworks/base" name="Emotroid-Rom/frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="emotroid" />
   <project path="vendor/cmsdk" name="Emotroid-Rom/cm_platform_sdk" remote="emotroid" />
