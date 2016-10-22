@@ -405,7 +405,6 @@
   <project path="packages/apps/TvSettings" remote="cm" name="CyanogenMod/android_packages_apps_TvSettings" groups="generic_fs" />
   <project path="packages/apps/UnifiedEmail" remote="cm" name="CyanogenMod/android_packages_apps_UnifiedEmail" groups="pdk-fs" />
   <project path="packages/experimental" name="platform/packages/experimental" remote="aosp" />
-  <project path="packages/inputmethods/LatinIME" remote="cm" name="CyanogenMod/android_packages_inputmethods_LatinIME" groups="pdk-fs" />
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" groups="pdk-fs" remote="aosp" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" groups="pdk-fs" remote="aosp" />
   <project path="packages/providers/BlockedNumberProvider" name="platform/packages/providers/BlockedNumberProvider" groups="pdk-fs" remote="aosp" />
