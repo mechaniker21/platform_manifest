@@ -12,6 +12,7 @@
   <project path="frameworks/base" name="Emotroid-Rom/frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="emotroid" />
   <project path="vendor/cmsdk" name="Emotroid-Rom/cm_platform_sdk" remote="emotroid" />
   <project path="packages/inputmethods/LatinIME" name="Emotroid-Rom/android_packages_inputmethods_LatinIME" groups="pdk-fs" remote="emotroid" />
+  <project path="packages/apps/OmniSwitch" name="Emotroid-Rom/android_packages_apps_OmniSwitch" remote="emotroid" />
   <project path="packages/apps/Settings" name="Emotroid-Rom/packages_apps_Settings" groups="pdk-fs" remote="emotroid" />
   <project path="hardware/qcom/keymaster" name="Emotroid-Rom/android_hardware_qcom_keymaster" groups="qcom,qcom_keymaster" remote="emotroid" />
   <project path="hardware/broadcom/libbt" name="Emotroid-Rom/android_hardware_broadcom_libbt" groups="pdk" remote="emotroid" />
