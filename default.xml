@@ -368,7 +368,6 @@
   <project path="hardware/qcom/camera" remote="cm" name="CyanogenMod/android_hardware_qcom_camera" groups="qcom" />
   <project path="hardware/qcom/display" remote="cm" name="CyanogenMod/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" />
   <project path="hardware/qcom/gps" remote="cm" name="CyanogenMod/android_hardware_qcom_gps" groups="qcom,qcom_gps" />
-  <project path="hardware/qcom/keymaster" remote="cm" name="CyanogenMod/android_hardware_qcom_keymaster" groups="qcom,qcom_keymaster" />
   <project path="hardware/qcom/media" remote="cm" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" />
   <project path="hardware/qcom/wlan" remote="cm" name="CyanogenMod/android_hardware_qcom_wlan" groups="qcom_wlan" />
   <project path="hardware/ril" remote="cm" name="CyanogenMod/android_hardware_ril" groups="pdk" />
