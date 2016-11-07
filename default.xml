@@ -9,7 +9,6 @@
   <remote  name="github"
            fetch=".." />
 
-
   <remote  name="emotroid"
            fetch="https://github.com/"
            revision="refs/heads/nougat" />
