@@ -18,6 +18,7 @@
   <project path="hardware/qcom/keymaster" name="Emotroid-Rom/android_hardware_qcom_keymaster" groups="qcom,qcom_keymaster" remote="emotroid" />
   <project path="hardware/broadcom/libbt" name="Emotroid-Rom/android_hardware_broadcom_libbt" groups="pdk" remote="emotroid" />
   <project path="system/sepolicy" name="Emotroid-Rom/android_system_sepolicy" groups="pdk" remote="emotroid" />
+  <project path="prebuilts/snapdragon-llvm/toolchains/llvm-Snapdragon_LLVM_for_Android_3.8/prebuilt/linux-x86_64/" name="Emotroid-Rom/llvm-Snapdragon_LLVM_for_Android" remote="emotroid" revision="3.8.7" />
   <!-- END Emotion -->
 
   <!-- CyanogenMod additions -->
