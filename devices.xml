@@ -33,7 +33,7 @@
   <!-- Samsung Note 4 (trltexx) Family -->
   <project name="Emotroid-Rom/android_device_samsung_trltexx" path="device/samsung/trltexx" remote="emotroid" />
   <project name="Emotroid-Rom/android_device_samsung_trltespr" path="device/samsung/trltespr" remote="emotroid" />
-  <project name="Emotroid-Rom/android_device_samsung_trltetmor" path="device/samsung/trltetmo" remote="emotroid" />
+  <project name="Emotroid-Rom/android_device_samsung_trltetmo" path="device/samsung/trltetmo" remote="emotroid" />
   <project name="Emotroid-Rom/proprietary_vendor_samsung" path="vendor/samsung" remote="emotroid" />
   <project name="Emotroid-Rom/emotion_cm_kernel_trlte" path="kernel/samsung/trlte" remote="emotroid" />
 
