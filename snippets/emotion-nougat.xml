@@ -12,6 +12,7 @@
   <project path="frameworks/base" name="Emotroid-Rom/frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="emotroid" />
   <project path="vendor/cmsdk" name="Emotroid-Rom/cm_platform_sdk" remote="emotroid" />
   <project path="packages/inputmethods/LatinIME" name="Emotroid-Rom/android_packages_inputmethods_LatinIME" groups="pdk-fs" remote="emotroid" />
+  <project path="packages/apps/CMParts" remote="emotroid" name="Emotroid-Rom/packages_apps_CMParts" />
   <project path="packages/apps/OmniSwitch" name="Emotroid-Rom/android_packages_apps_OmniSwitch" remote="emotroid" />
   <project path="packages/apps/EmotionControl" name="Emotroid-Rom/packages_apps_EmotionControl" remote="emotroid" />
   <project path="packages/apps/Settings" name="Emotroid-Rom/packages_apps_Settings" groups="pdk-fs" remote="emotroid" />
@@ -60,8 +61,8 @@
   <project path="packages/apps/AudioFX" remote="cm" name="CyanogenMod/android_packages_apps_AudioFX" />
   <project path="packages/apps/Browser" remote="cm" name="CyanogenMod/android_packages_apps_Browser" />
   <project path="packages/apps/CMFileManager" remote="cm" name="CyanogenMod/android_packages_apps_CMFileManager" />
-  <project path="packages/apps/CMParts" remote="cm" name="CyanogenMod/android_packages_apps_CMParts" />
   <project path="packages/apps/CMWallpapers" remote="cm" name="CyanogenMod/android_packages_apps_CMWallpapers" />
+  <project path="packages/resources/devicesettings" remote="cm" name="CyanogenMod/android_packages_resources_devicesettings" />
   <project path="packages/apps/Eleven" remote="cm" name="CyanogenMod/android_packages_apps_Eleven" />
   <project path="packages/apps/Exchange" remote="cm" name="CyanogenMod/android_packages_apps_Exchange" />
   <project path="packages/apps/FMRadio" remote="cm" name="CyanogenMod/android_packages_apps_FMRadio" />
