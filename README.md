@@ -30,13 +30,8 @@ After the sync is finished, please read the [instructions from the Android site]
 
     $ ./build-emotion.sh <device_codename>
 
-Example for Note 4:
+Example for oneplus3:
 
-    $ ./build-emotion.sh trltexx
+    $ ./build-emotion.sh oneplus3
 
-For a list of supported options, run the script on it's own:
-
-    $ ./build-emotion.sh
-
-
-Remember to `make clobber && make clean` every now and then!
+Remember to `make clean` every now and then!
